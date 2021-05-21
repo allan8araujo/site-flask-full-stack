@@ -1,5 +1,5 @@
 from aplicativo import app
-from flask import render_template
+from flask import render_template,request,url_for
 
 
 @app.route('/')
@@ -9,6 +9,7 @@ def home():
 @app.route('/calc')
 def calc():
     return render_template('calc.html')
+
 
 @app.route('/about')
 def about():

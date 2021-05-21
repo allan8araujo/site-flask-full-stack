@@ -3,7 +3,8 @@
 
 *{ padding:0px;
 	margin:0px;
-	font-family: Arial, senrif;
+	font-family: sans-serif, serif;
+	font-size:16px;
 }
 
 /* nav-bar */
@@ -60,15 +61,129 @@
 	background:white;
 }
 
-/* home page*/
+/* margin:  page*/
 
 
-.home-wrapper{display:flex;
+.main-wrapper{display:flex;
 	background:#2d2d30;
-	border-radius: 4%;
+	border-radius: 3%;
+	
+
 	width: 850px;
 	height:35em;
 	opacity: 0.90;
+
+	justify-content:center;
 }
 
 
+/* calculator */
+
+.containter-calc{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+}
+
+.calcs-columns{
+	flex-direction: row;
+	display:flex;
+	justify-content: center;
+}
+
+.home-content{
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.home-content h5{
+	font-weight: 100;
+	display:flex;
+	color:white;
+	width:55%;
+	margin-top: 35px;
+	padding:30px;
+}
+
+.diamond-photo{
+	margin-top: 30px;
+	display:flex;
+	width:150px;
+	height:auto;
+}
+
+.st-text-center{
+	display:flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.second-text-center{
+	display:flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+
+/* Inicio */
+@font-face{
+	font-family: sc;
+	src:url('fonts/StrawberryCupcakes.ttf');
+}
+
+.inicio{display:flex;
+
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.inicio h5{
+	font-weight: 100;
+	display:flex;
+	color:white;
+	width:100%;
+	margin-top: 35px;
+	padding:30px;
+}
+
+.home-first-text  h5{
+	display:flex;
+	font-size:28px;
+	align-items: center;
+}
+.home-first-text h5 span:first-child{
+	font-family: sc, sans-serif;
+	color:white;
+
+	font-size:46px;
+	font-weight: 250;
+	margin-right:8px ;
+}
+.home-first-text h5 span{
+	font-size: 32px;
+	font-family:Arial, sans-serif;
+	font-weight: 650;
+	color:#5da6d4;
+}
+
+.center-lol-img{display:flex;
+	width:230px;
+	height:auto;
+}
+
+.inicio-center-text h1{
+	width: 90%;
+	background: linear-gradient(to bottom, rgba(53, 101, 156,0.6),rgba(53, 101, 156,0) );
+	padding:30px;
+	color:white;
+	border-radius: 2%;
+	padding-bottom: 50px;
+
+	font-family:Arial, sans-serif;
+	font-size:46px;
+	font-weight: 500;
+}
