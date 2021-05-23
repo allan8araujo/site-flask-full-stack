@@ -61,6 +61,12 @@
 	background:white;
 }
 
+
+.logo{
+	display:flex;
+	width:72%;
+}
+
 /* margin:  page*/
 
 
@@ -93,40 +99,61 @@
 }
 
 .home-content{
+	align-items: center;
+	text-align: center;
 	display: flex;
 	flex-direction: column;
-
-
 }
 
+/* FAQ*/
+
 .home-content h5{
+	font-size:20px;
 	font-weight: 100;
 	display:flex;
 	color:white;
+
 	width:55%;
-	margin-top: 35px;
 	padding:30px;
 }
 
 .diamond-photo{
 	margin-top: 30px;
 	display:flex;
-	width:150px;
-	height:auto;
+	width:16%;
 }
 
 .st-text-center{
 	display:flex;
+	justify-content: center;
 	align-items: center;
 	flex-direction: row;
 }
 
-.second-text-center{
+
+.second-text-center{	
+	background: rgba(0, 0, 0,0.3);
 	display:flex;
+	justify-content: center;
 	align-items: center;
-	flex-direction: row-reverse;
+	flex-direction: row;
 }
 
+.master-photo{
+	display:flex;
+	width:18%;
+}
+.third-text-center{
+	justify-content: center;
+	align-items: center;
+	display:flex;
+	flex-direction: row;
+}
+
+.ml-img{
+	width:90px;
+	height: 90px;
+}
 
 /* Inicio */
 @font-face{
@@ -176,8 +203,9 @@
 }
 
 .inicio-center-text h1{
+	
 	width: 90%;
-	background: linear-gradient(to bottom, rgba(53, 101, 156,0.6),rgba(53, 101, 156,0) );
+
 	padding:30px;
 	color:white;
 	border-radius: 2%;
