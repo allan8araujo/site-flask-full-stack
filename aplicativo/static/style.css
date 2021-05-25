@@ -3,7 +3,7 @@
 
 *{ padding:0px;
 	margin:0px;
-	font-family: sans-serif, serif;
+	font-family:sans-serif, serif;
 	font-size:16px;
 }
 
@@ -110,7 +110,6 @@
 .home-content h5{
 	font-size:20px;
 	font-weight: 100;
-	display:flex;
 	color:white;
 
 	width:55%;
@@ -118,7 +117,6 @@
 }
 
 .diamond-photo{
-	margin-top: 30px;
 	display:flex;
 	width:16%;
 }
@@ -143,12 +141,24 @@
 	display:flex;
 	width:18%;
 }
-.third-text-center{
+.third-text-center{height: 100%;
 	justify-content: center;
 	align-items: center;
-	display:flex;
+	display:inline-flex;
 	flex-direction: row;
 }
+
+.link-ml{	
+	color:#5da6d4;
+	font-weight: 700;
+	text-decoration-line: none;
+	font-size:20px;
+	font-weight: 100;
+
+}
+
+
+
 
 .ml-img{
 	width:90px;
