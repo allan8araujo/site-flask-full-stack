@@ -1,1 +1,1 @@
-Using html/css to create pages on the site developed in python using flask micro framework
+Using html+css to web development and flask micro framework to back-end
