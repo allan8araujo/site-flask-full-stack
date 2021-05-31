@@ -18,13 +18,26 @@
           <h3><a href="/about" class="links">FAQ</a></h3>
 
           <div class="login-wrapper">
-            <button onclick="location.href='/login'" class="login"> Login</button>
-            <button onclick="location.href='/register'" class="cadastro"> Comece agora</button>
+            {% if current_user.is_authenticated %}
+              <button onclick="location.href='/logout'" class="login"> Logout</button>
+            {% else %}
+              <button onclick="location.href='/login'" class="login"> Login</button>
+              <button onclick="location.href='/register'" class="cadastro"> Comece agora</button>
+            {% endif %}
           </div>
-      </div>  
+      </nav>  
 
     </div>
   <div class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {%if messages %}
+        {% for category, message in messages%}
+          <div class="alert-class">
+            {{ message}}
+          </div>
+        {% endfor %}
+      {% endif%}
+    {% endwith%}
     {%block content %}
 
     {% endblock %}

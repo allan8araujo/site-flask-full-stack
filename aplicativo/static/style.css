@@ -1,5 +1,5 @@
 
-/* comum-rest */
+/* comum-reset */
 
 *{ padding:0px;
 	margin:0px;
@@ -8,9 +8,10 @@
 }
 
 /* nav-bar */
-
-.wrapper{
+body{
 	background: url(img/bg_lux.jpg);
+}
+.wrapper{
 	display:flex;
 	flex-direction: column;
 	align-items: center;
@@ -21,14 +22,15 @@
 	align-items: center;
 	display:flex;
 	flex-direction: space-between;
-	padding:20px 35px;
+	padding:10px 35px;
 }
 .links-nav .links:hover{
 	color:white;
-}
+	}
+
 .links-nav .links{
 	color:#e7e6f0;
-	padding:0 50px;
+	padding:50px;
 	display:flex;
 }
 .links{display:flex;
@@ -194,7 +196,7 @@
 }
 .home-first-text h5 span:first-child{
 	font-family: sc, sans-serif;
-	color:white;
+	color:grey;
 
 	font-size:46px;
 	font-weight: 250;
@@ -224,4 +226,35 @@
 	font-family:Arial, sans-serif;
 	font-size:46px;
 	font-weight: 500;
+}
+
+
+.forms{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.border-bottom{
+	text-align: center;
+	color: white;
+	border-radius: 15px;
+	padding: 30px;
+	background: rgba(0, 0, 0,0.7);
+}
+
+
+.form-group{
+	display: flex;
+	margin: 10px;
+	padding: 0px 15px;
+	border: none;
+	justify-content: center;
+}
+
+.alert-class{
+	font-size: 24px;
+	text-align: center;
+	color: green;
 }
