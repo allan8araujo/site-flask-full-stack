@@ -28,7 +28,7 @@
       </nav>  
 
     </div>
-  <div class="container">
+  <div class="wrapper">
     {% with messages = get_flashed_messages(with_categories=true) %}
       {%if messages %}
         {% for category, message in messages%}
@@ -42,8 +42,38 @@
     {% endblock %}
   </div>
 </div>
-<footer class="footer-wrapper" style="display: flex;color:white;">
-  League of Legends é uma marca registrada da Riot Games, Inc. Nós não somos de nenhuma forma afiliados, associados ou endossado pela Riot Games, Inc. Todos os direitos autoriais, marcas, imagens e marcas de serviço pertencem a seus respectivos proprietários.     
+<footer class="main-footer">
+  <div class=top-footer>
+      <div class="footer-left-wrapper">
+          <div>
+            <h5>
+            A High Elo Jobs, sem dúvidas, é a melhor organização se você busca custo-benefício. Prezamos sempre por serviços rápidos, discretos e baratos. mantendo nossa transparência e responsabilidade com nossos clientes.
+            </h5>
+          </div>
+          <div class="cards-accepted">
+            <img srcset="static/img/payment-methods.png">
+          </div>
+          </div>
+          <div class="footer-left-wrapper">
+            <h5 style="font-size:28px"> Referências </h5>
+              <div class=wrapper-footer-links>
+                <div class=right-footer-wrapper-link>
+                  <img class="logos-footer"srcset="static/img/facebook-logo.png">
+                  <img class="logos-footer" srcset="static/img/ml-logo.png">
+                </div>
+                <div class="right-footer-wrapper-link">
+                  <a class="footer-links" href="https://www.facebook.com/HlGH.Elo">Facebook </a>
+                  <a class="footer-links" href="https://www.mercadolivre.com.br/perfil/HIGHELO">Mercado Livre</a>
+                </div>
+              </div>
+          </div>
+          <div class="logo-footer">
+              <img class="center-lol-img" src="static/img/lol-white-logo.png">
+          </div>
+  </div>
+  <div class="bottom-footer"><h5>
+      League of Legends é uma marca registrada da Riot Games, Inc. Nós não somos de nenhuma forma afiliados, associados ou endossado pela Riot Games, Inc. Todos os direitos autoriais, marcas, imagens e marcas de serviço pertencem a seus respectivos proprietários.</h5>
+  </div>
 </footer>
 </body>
 </html>

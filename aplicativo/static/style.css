@@ -12,6 +12,7 @@ body{
 	background: url(img/bg_lux.jpg);
 }
 .wrapper{
+	background: center;
 	display:flex;
 	flex-direction: column;
 	align-items: center;
@@ -72,15 +73,14 @@ body{
 /* margin:  page*/
 
 
-.main-wrapper{display:flex;
+.main-wrapper{
+	display:flex;
 	background:#2d2d30;
 	border-radius: 3%;
-	
 
 	width: 850px;
 	height:35em;
 	opacity: 0.90;
-
 	justify-content:center;
 }
 
@@ -257,4 +257,84 @@ body{
 	font-size: 24px;
 	text-align: center;
 	color: green;
+}
+
+.main-footer{	
+	width: 88%;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+
+	background:#242426;
+	opacity: 0.80;
+
+}
+
+.top-footer{
+	align-items: center;
+	justify-content:space-around;
+	display: flex;
+	flex-direction: row;
+}
+
+.top-footer h5{
+	text-align: center;
+	font-weight: 100;
+	margin: 15px;
+	color: #e7e6f0;
+}
+
+
+.footer-left-wrapper{
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+}
+.cards-accepted{
+	margin: 15px;
+	display: flex;
+}
+
+.bottom-footer h5{
+	width: 98%;
+	justify-content:center;
+	text-align: center;
+	font-weight: 100;
+	margin: 15px;
+	color: #e7e6f0;
+
+}
+
+.footer-links {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 12.5px 10px;
+
+	color:#5da6d4;
+
+	font-weight: 700;
+	text-decoration-line: none;
+	font-size:20px;
+	font-weight: 100;
+}
+.wrapper-footer-links{
+	justify-content: center;
+	flex-direction: row;
+	display: flex;
+}
+.right-footer-wrapper-link{
+	flex-direction: column;
+	display: flex;
+}
+
+.logos-footer{
+	display: flex;
+	width:50px;
+	height: 50px;
+}
+.logo-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
