@@ -7,33 +7,45 @@
 	font-size:16px;
 }
 
-/* nav-bar */
 body{
-	background: url(img/bg_lux.jpg);
-}
-.wrapper{
-	background: center;
-	display:flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width:100%;
-	height:50em;
+	padding: 10px 0;
+	background: linear-gradient(to top left, rgba(65, 90, 135,0.7), rgba(65, 90, 135,1));
 }
-.links-nav{
+
+
+/* nav-bar */
+.wrapper{	
+	display:flex;
+	margin: 10px 0;
+	background: center;
+	flex-direction: column;
+	align-items: center;
+
+	width:100%;;
+}
+
+.links-nav{	
+	/*background:#2d2d30;
+	border-radius: 3%;*/
 	align-items: center;
 	display:flex;
 	flex-direction: space-between;
 	padding:10px 35px;
 }
+
 .links-nav .links:hover{
 	color:white;
-	}
+}
 
 .links-nav .links{
 	color:#e7e6f0;
 	padding:50px;
 	display:flex;
 }
+
 .links{display:flex;
 	margin:0 35px;
 	font-weight:100;
@@ -64,29 +76,26 @@ body{
 	background:white;
 }
 
-
 .logo{
 	display:flex;
 	width:72%;
 }
 
-/* margin:  page*/
-
+/* main-wrapper layout*/
 
 .main-wrapper{
 	display:flex;
 	background:#2d2d30;
-	border-radius: 3%;
 
-	width: 850px;
+
+	width: 950px;
 	height:35em;
-	opacity: 0.90;
+	opacity: 1;
 	justify-content:center;
 }
 
 
 /* calculator */
-
 .containter-calc{
 	display:flex;
 	justify-content: center;
@@ -108,7 +117,6 @@ body{
 }
 
 /* FAQ*/
-
 .home-content h5{
 	font-size:20px;
 	font-weight: 100;
@@ -159,13 +167,11 @@ body{
 
 }
 
-
-
-
 .ml-img{
 	width:90px;
 	height: 90px;
 }
+
 
 /* Inicio */
 @font-face{
@@ -177,7 +183,6 @@ body{
 
 	align-items: center;
 	flex-direction: column;
-
 }
 
 .inicio h5{
@@ -194,20 +199,33 @@ body{
 	font-size:28px;
 	align-items: center;
 }
+
 .home-first-text h5 span:first-child{
 	font-family: sc, sans-serif;
-	color:grey;
+	color:#93a1c9;
 
 	font-size:46px;
 	font-weight: 250;
 	margin-right:8px ;
 }
+
+.box-filme{
+	height: 50%;
+	width: 50%;
+	display: block;
+}
+
+
 .home-first-text h5 span{
 	font-size: 32px;
 	font-family:Arial, sans-serif;
 	font-weight: 650;
-	color:#5da6d4;
+	color:#5da6d4;	align-items: center;
 }
+
+
+
+
 
 .center-lol-img{display:flex;
 	width:230px;
@@ -215,19 +233,17 @@ body{
 }
 
 .inicio-center-text h1{
-	
-	width: 90%;
+width: 90%;
 
-	padding:30px;
-	color:white;
-	border-radius: 2%;
-	padding-bottom: 50px;
+padding:30px;
+color:white;
+border-radius: 2%;
+padding-bottom: 50px;
 
-	font-family:Arial, sans-serif;
-	font-size:46px;
-	font-weight: 500;
+font-family:Arial, sans-serif;
+font-size:46px;
+font-weight: 500;
 }
-
 
 .forms{
 	display: flex;
@@ -244,7 +260,6 @@ body{
 	background: rgba(0, 0, 0,0.7);
 }
 
-
 .form-group{
 	display: flex;
 	margin: 10px;
@@ -259,12 +274,13 @@ body{
 	color: green;
 }
 
-.main-footer{	
+/* footer */
+.main-footer{
 	width: 88%;
 	border-radius: 5px;
 	display: flex;
 	flex-direction: column;
-
+	align-items: center;
 	background:#242426;
 	opacity: 0.80;
 
