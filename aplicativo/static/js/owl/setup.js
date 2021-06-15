@@ -1,0 +1,27 @@
+$('#text-slider').owlCarousel({
+    items:6,
+    margin:10,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:2100,
+    autoplayHoverPause:false,
+    autoWidth:true,
+});
+
+$('#photo-slider').owlCarousel({
+    loop:false,
+    autoWidth:true,
+    margin:12,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})

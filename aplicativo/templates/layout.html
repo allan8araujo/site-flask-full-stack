@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <!-- owl css -->
-  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='owl/owl.carousel.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='owl/owl.carousel.min.css')}}">
 
-  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='owl/owl.theme.default.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='owl/owl.theme.default.min.css')}}">
 
   <!--css-->
   <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
@@ -81,9 +81,9 @@
   </div>
 </footer>
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js/setup.js"></script>
+<script src="{{url_for('static', filename='js/owl/jquery.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/owl/owl.carousel.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/owl/setup.js')}}"></script>
 
 </body>
 </html>
