@@ -5,7 +5,7 @@ Using html,css, javascript and JQuery to web development. Also we use the flask 
 Site is now avalible on the link: http://highelojobs.herokuapp.com/
 
 ## [PT-BR] 
-Usando html, css, javascript e JQuery para o desenvolvimento web front-end. Utilizamos a micro-framework Flask para back-end e também tem um pouco de SQLAlchemy. 
+Usando html, css, javascript e JQuery para o desenvolvimento web front-end. Utilizando a micro-framework Flask para back-end e também tem um pouco de SQLAlchemy. 
 Site agora está disponível no link: http://highelojobs.herokuapp.com/
 
 The main page Screenshot: 
